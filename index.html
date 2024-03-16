@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar</title>
+
+    <script>
+
+  // Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+
+        var nome_do_carro = "fusca";
+
+        alert (nome_do_carro)
+
+ // Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]"
+
+        var NomeDoUsuario = prompt ("Digite seu nome")
+        alert ("Olá" + " " + NomeDoUsuario)
+
+ // Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+
+        var nome = prompt ("Digite seu nome");
+        var idade = prompt ("Informe a sua idade");
+
+        alert ("Bem-vindo" + " " + nome + " " + "Sua idade é" + " " + idade);
+
+ //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        //Retângulo e Paralelogramo
+        
+        var a;
+        var base = prompt ("Digite a base:");
+        var altura = prompt ("Digite a altura:");
+
+        alert (a = base * altura);
+        document.write(a);
+
+        //Quadrado
+
+        var a;
+        var lado = prompt ("Digite a lado:");
+
+        a = (lado*lado);
+        document.write(a); 
+
+
+        //Losango
+
+        var a;
+        var diagonalmaior = prompt ("Informe o diagonal maior");
+        var diagonalmenor = prompt ("Informe o diagonal menor");
+
+        a = ("diagonalmaior * diagonalmenor")/2;
+        document.write(a);
+
+        //Trapézio
+
+        var a;
+        var basemaior = parseInt(prompt("informe a base maior:"));
+        var basemenor = parseInt(prompt("informe a base menor"));
+        var h = parseInt(prompt("informe a base altura"));
+
+        var a = (basemaior + basemenor) * h / 2;
+        document.write(a);
+
+        //Triângulo
+
+        var a;
+        var base = parseInt(prompt("Digite a base:"));
+        var altura = parseInt(prompt("Digite a altura"));
+
+        a = (base*altura)/2;
+
+        //Círculo
+
+        var a;
+        var pi = 3.14;
+        var raio = parseInt(prompt("Informe o valor do raio:"));
+
+        a = pi*(raio*raio);
+
+        document.write(a);
+
+    
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
+
